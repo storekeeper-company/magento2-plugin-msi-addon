@@ -1,0 +1,24 @@
+{
+    "name": "storekeeper/magento2-plugin-msi-addon",
+    "description": "Storekeeper MSI addon plugin",
+    "require": {
+        "php": "^7.4|^8.1|^8.2",
+        "magento/product-community-edition": "^2.4.5",
+        "storekeeper/magento2-plugin": "*"
+    },
+    "suggest": {
+    },
+    "type": "magento2-module",
+    "version": "0.0.1",
+    "license": [
+        "LGPL-3.0-only"
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "StoreKeeper\\StoreKeeperMsi\\": ""
+        }
+    }
+}
