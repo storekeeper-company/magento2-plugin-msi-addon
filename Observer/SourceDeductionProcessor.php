@@ -1,6 +1,6 @@
 <?php
 
-namespace StoreKeeper\StoreKeeperMsi\Observers;
+namespace StoreKeeper\StoreKeeperMsi\Observer;
 
 use Magento\Framework\Event\Observer as EventObserver;
 use Magento\Framework\Event\ObserverInterface;
